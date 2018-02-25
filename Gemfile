@@ -49,7 +49,6 @@ end
 
 
 group :production do 
-  gem 'byebug'
-  gem 'rails_12factor' 
-  gem 'pg'
+gem 'rails_12factor' 
+gem 'pg' 
 end
