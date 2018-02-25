@@ -37,8 +37,6 @@ group :development, :test do
   gem 'byebug'
   gem 'rails_12factor' 
   gem 'pg'
-  gem 'bootstrap-sass'
-
 end
 
 group :development do
@@ -48,8 +46,6 @@ group :development do
   gem 'compass-rails','~> 2.0'
   gem 'sprockets', '2.11.0' 
   gem 'bootstrap-sass'
-
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
 
