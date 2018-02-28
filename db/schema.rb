@@ -14,8 +14,9 @@
 ActiveRecord::Schema.define(version: 20180225005538) do
 
   create_table "views", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "name",       limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end
