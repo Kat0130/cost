@@ -49,8 +49,8 @@ end
 
 
 group :production do 
-gem 'rails_12factor' 
-gem 'pg' 
+  gem 'rails_12factor' 
+  gem 'pg' 
   gem 'pry-rails' 
   gem 'compass-rails','~> 2.0'
   gem 'sprockets', '2.11.0' 
